@@ -26,8 +26,13 @@ async def on_ready():
 @bot.event
 async def on_message(message):
 	await bot.process_commands(message)
-	holyrow = ["jerusalem", "deus vult", "deus", "vult"]
-	if holyrow in message.content.lower():
+	if jerusalem in message.content.lower():
+		await bot.send_message(message.channel, "<:holy:495684177480646656>, " + message.author.mention)
+		
+@bot.event
+async def on_message(message):
+	await bot.process_commands(message)
+	if jerusalem in message.content.lower():
 		await bot.send_message(message.channel, "<:holy:495684177480646656>, " + message.author.mention)
 	
 		
