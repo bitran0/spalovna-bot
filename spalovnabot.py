@@ -65,14 +65,4 @@ async def roll(ctx):
 async def holy(ctx):
 		await bot.say("<:holy:495684177480646656>")
 		
-@bot.command(pass_context = True)
-async def supersecretannouncement(ctx):
-		await bot.say("@everyone Informace ohledně botů na serveru
-
-SpalovnaBOT - Speciální bot, dostupný jen na tomhle serveru. Zatím ukládá informace ohledně serveru a má pár (ne)užitečných příkazů.
-
-TomBot - Bot na muziku, příkaz je >play {YT Odkaz}
-
-Jestli má někdo více otázek, ať se zeptá v #general")
-		
 bot.run(os.getenv('TOKEN'))
