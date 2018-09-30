@@ -46,6 +46,6 @@ async def roll(ctx):
 		
 @bot.command(pass_context = True)
 async def holy(ctx):
-		await bot.say("<:vilemthink:494489031355138050>")
+		await bot.say("<:holy:495684177480646656>")
 		
 bot.run(os.getenv('TOKEN'))
