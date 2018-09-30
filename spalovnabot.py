@@ -29,16 +29,16 @@ async def on_message(message):
 	if "jerusalem" in message.content.lower():
 		await bot.send_message(message.channel, "<:holy:495684177480646656> " + message.author.mention)
 	else:
-		if "Babiš" in message.content.lower():
-			await bot.send_message(message.channel, "**Čapi Hnízdo Intensifies**")
+		if "babiš" in message.content.lower():
+			await bot.send_message(message.channel, "**Čapí Hnízdo Intensifies**")
 		else:
 			if "deus vult" in message.content.lower():
 				await bot.send_message(message.channel, "<:holy:495684177480646656> " + message.author.mention)
 			else:
-				if "SPD" in message.content.lower():
+				if "spd" in message.content.lower():
 					await bot.send_message(message.channel, "*Úsvit příme demokracie, Tomio Okamury!* <:SPD:495688510318182400>")
 				else:
-					if "SJW" in message.content.lower():
+					if "sjw" in message.content.lower():
 						await bot.send_message(message.channel, ":flag_us: SJW POWER! :flag_us:")
 		
 @bot.command(pass_context = True)
