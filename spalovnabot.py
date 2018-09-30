@@ -39,7 +39,7 @@ async def on_message(message):
 					await bot.send_message(message.channel, "*Úsvit příme demokracie, Tomio Okamury!* <:Tomio:495688510318182400>")
 				else:
 					if "sjw" in message.content.lower():
-						await bot.send_message(message.channel, ":flag_us: SJW POWER! :flag_us:")
+						await bot.send_message(message.channel, ":flag_us: Social Justice POWER! :flag_us:")
 		
 @bot.command(pass_context = True)
 async def info(ctx, target: discord.Member = None):
