@@ -36,7 +36,7 @@ async def on_message(message):
 				await bot.send_message(message.channel, "<:holy:495684177480646656> " + message.author.mention)
 			else:
 				if "spd" in message.content.lower():
-					await bot.send_message(message.channel, "*Úsvit příme demokracie, Tomio Okamury!* <:SPD:495688510318182400>")
+					await bot.send_message(message.channel, "*Úsvit příme demokracie, Tomio Okamury!* <:Tomio:495688510318182400>")
 				else:
 					if "sjw" in message.content.lower():
 						await bot.send_message(message.channel, ":flag_us: SJW POWER! :flag_us:")
