@@ -44,5 +44,8 @@ async def info(ctx, target: discord.Member = None):
 async def roll(ctx):
 		await bot.say(random.randint(1,100))
 		
-
+@bot.command(pass_context = True)
+async def holy(ctx):
+		await bot.say(":holy: :holy: :holy: :holy: :holy: :holy:")
+		
 bot.run(os.getenv('TOKEN'))
