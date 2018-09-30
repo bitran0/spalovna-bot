@@ -27,7 +27,7 @@ async def on_ready():
 async def on_message(message):
 	await bot.process_commands(message)
 	if "jerusalem" in message.content.lower():
-		await bot.send_message(message.channel, "<:holy:495684177480646656>" + message.author.mention)
+		await bot.send_message(message.channel, "<:holy:495684177480646656>, " + message.author.mention)
 	
 		
 @bot.command(pass_context = True)
