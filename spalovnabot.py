@@ -23,6 +23,12 @@ async def on_ready():
 	print ("--------------------------------------")
 	print ("bot made by: bitran")
 	
+@bot.event
+async def on_message(message):
+	await bot.process_commands(message)
+	if "jerusalem" in message.content.lower():
+		await bot.send_message(message.channel, "<:holy:495684177480646656>" + message.author.mention)
+	
 		
 @bot.command(pass_context = True)
 async def info(ctx, target: discord.Member = None):
