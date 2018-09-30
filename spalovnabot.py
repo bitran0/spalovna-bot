@@ -67,7 +67,7 @@ async def holy(ctx):
 		
 @bot.command(pass_context = True)
 async def supersecretannouncement(ctx):
-		await bot.say("@everyone Informace ohledně botů na serveru:
+		await bot.say("@everyone Informace ohledně botů na serveru
 
 SpalovnaBOT - Speciální bot, dostupný jen na tomhle serveru. Zatím ukládá informace ohledně serveru a má pár (ne)užitečných příkazů.
 
