@@ -40,6 +40,7 @@ async def on_message(message):
 				else:
 					if "sjw" in message.content.lower():
 						await bot.send_message(message.channel, ":flag_us: Social Justice POWER! :flag_us:")
+					else:
 						if "mr bot tell this guy that he is retarded pls" in message.content.lower():
 							await bot.send_message(message.channel, "*You're retarded* (Why am I like this?)")
 		
