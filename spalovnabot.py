@@ -29,13 +29,13 @@ async def on_message(message):
 	if "jerusalem" in message.content.lower():
 		await bot.send_message(message.channel, "<:holy:495684177480646656> " + message.author.mention)
 	else:
-		if "babiš" in message.content.lower():
+		if "babiš" or "čapí hnízdo" in message.content.lower():
 			await bot.send_message(message.channel, "**Čapí Hnízdo Intensifies**")
 		else:
 			if "deus vult" in message.content.lower():
 				await bot.send_message(message.channel, "<:holy:495684177480646656> " + message.author.mention)
 			else:
-				if "spd" in message.content.lower():
+				if "spd" or "okamura" in message.content.lower():
 					await bot.send_message(message.channel, "*Úsvit příme demokracie, Tomio Okamury!* <:Tomio:495688510318182400>")
 				else:
 					if "sjw" in message.content.lower():
@@ -43,6 +43,10 @@ async def on_message(message):
 					else:
 						if "mr bot tell this guy that he is retarded pls" in message.content.lower():
 							await bot.send_message(message.channel, "*You're retarded*")
+						else:
+							if "nigger" or "negr" in message.content.lower():
+								await bot.send_message(message.channel, "<:cmonBruh:497857953714405378>")
+
 		
 @bot.command(pass_context = True)
 async def info(ctx, target: discord.Member = None):
