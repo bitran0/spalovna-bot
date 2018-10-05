@@ -44,7 +44,7 @@ async def on_message(message):
 						if "mr bot tell this guy that he is retarded pls" in message.content.lower():
 							await bot.send_message(message.channel, "*You're retarded*")
 						else:
-							if "nigger" or "negr" in message.content.lower():
+							if "nigger" in message.content.lower():
 								await bot.send_message(message.channel, "<:cmonBruh:497857953714405378>")
 
 		
