@@ -35,7 +35,7 @@ async def on_message(message):
 			if "deus vult" in message.content.lower():
 				await bot.send_message(message.channel, "<:holy:495684177480646656> " + message.author.mention)
 			else:
-				if "spd" or "okamura" in message.content.lower():
+				if "spd" in message.content.lower():
 					await bot.send_message(message.channel, "*Úsvit příme demokracie, Tomio Okamury!* <:Tomio:495688510318182400>")
 				else:
 					if "sjw" in message.content.lower():
