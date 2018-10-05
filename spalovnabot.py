@@ -29,7 +29,7 @@ async def on_message(message):
 	if "jerusalem" in message.content.lower():
 		await bot.send_message(message.channel, "<:holy:495684177480646656> " + message.author.mention)
 	else:
-		if "babiš" or "čapí hnízdo" in message.content.lower():
+		if "babiš" in message.content.lower():
 			await bot.send_message(message.channel, "**Čapí Hnízdo Intensifies**")
 		else:
 			if "deus vult" in message.content.lower():
