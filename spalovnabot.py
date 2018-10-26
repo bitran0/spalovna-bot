@@ -49,6 +49,7 @@ async def on_message(message):
 							else:
 								if "good bot" in message.content.lower():
 									await bot.send_message(message.channel, "<3")
+								else:
 									if "plešoun" in message.content.lower():
 										await bot.send_message(message.channel, "shiro, we have another one.")
 
