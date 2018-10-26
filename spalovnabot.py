@@ -15,7 +15,7 @@ bot = commands.Bot(command_prefix="!")
 
 @bot.event
 async def on_ready():
-	await bot.change_presence(game=Game(name="Zeman x Ovčáček"))
+	await bot.change_presence(game=Game(name="Solo/Duo with Kvakovich"))
 	print ("Starting this shit. V2")
 	print ("user.name: " + bot.user.name)
 	print ("user.id: " + bot.user.id)
