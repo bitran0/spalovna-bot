@@ -46,6 +46,11 @@ async def on_message(message):
 						else:
 							if "nigger" in message.content.lower():
 								await bot.send_message(message.channel, "<:cmonBruh:497857953714405378>")
+							else:
+								if "good bot" in message.content.lower():
+									await bot.send_message(message.channel, "<3")
+									if "plešoun" in message.content.lower():
+										await bot.send_message(message.channel, "shiro, we have another one.")
 
 		
 @bot.command(pass_context = True)
@@ -67,6 +72,18 @@ async def info(ctx, target: discord.Member = None):
 @bot.command(pass_context = True)
 async def roll(ctx):
 		await bot.say(random.randint(1,100))
+		
+@bot.command(pass_context = True)
+async def roll2(ctx):
+		await bot.say(random.randint(1,2))
+		
+@bot.command(pass_context = True)
+async def roll20(ctx):
+		await bot.say(random.randint(1,20))
+		
+@bot.command(pass_context = True)
+async def roll1000(ctx):
+		await bot.say(random.randint(1,1000))
 		
 @bot.command(pass_context = True)
 async def holy(ctx):
