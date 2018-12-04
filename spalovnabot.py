@@ -57,7 +57,7 @@ async def on_message(message):
 											await bot.send_message(message.channel, "Good night!")
 										else:
 											if "bot help" in message.content.lower():
-												await bot.send_message(message.channel, "I'm sorry, there's nothing I can do.")
+												await bot.send_message(message.channel, "My son, there's nothing I can do.")
 
 		
 @bot.command(pass_context = True)
