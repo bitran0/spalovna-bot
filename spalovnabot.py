@@ -29,35 +29,39 @@ async def on_message(message):
 	if "jerusalem" in message.content.lower():
 		await bot.send_message(message.channel, "<:holy:495684177480646656> " + message.author.mention)
 	else:
-		if "babiš" in message.content.lower():
-			await bot.send_message(message.channel, "**Čapí Hnízdo Intensifies**")
-		else:
-			if "deus vult" in message.content.lower():
+	if "babiš" in message.content.lower():
+		await bot.send_message(message.channel, "**Čapí Hnízdo Intensifies**")
+	else:
+		if "deus vult" in message.content.lower():
 				await bot.send_message(message.channel, "<:holy:495684177480646656> " + message.author.mention)
+		else:
+			if "spd" in message.content.lower():
+				await bot.send_message(message.channel, "*Úsvit příme demokracie, Tomio Okamury!* <:Tomio:495688510318182400>")
 			else:
-				if "spd" in message.content.lower():
-					await bot.send_message(message.channel, "*Úsvit příme demokracie, Tomio Okamury!* <:Tomio:495688510318182400>")
+				if "sjw" in message.content.lower():
+					await bot.send_message(message.channel, ":flag_us: Social Justice POWER! :flag_us:")
 				else:
-					if "sjw" in message.content.lower():
-						await bot.send_message(message.channel, ":flag_us: Social Justice POWER! :flag_us:")
+					if "mr bot tell this guy that he is retarded pls" in message.content.lower():
+						await bot.send_message(message.channel, "*You're retarded*")
 					else:
-						if "mr bot tell this guy that he is retarded pls" in message.content.lower():
-							await bot.send_message(message.channel, "*You're retarded*")
+						if "nigger" in message.content.lower():
+							await bot.send_message(message.channel, "<:cmonBruh:497857953714405378>")
 						else:
-							if "nigger" in message.content.lower():
-								await bot.send_message(message.channel, "<:cmonBruh:497857953714405378>")
+							if "good bot" in message.content.lower():
+								await bot.send_message(message.channel, "<3")
 							else:
-								if "good bot" in message.content.lower():
-									await bot.send_message(message.channel, "<3")
+								if "plešoun" in message.content.lower():
+									await bot.send_message(message.channel, "shiro, we have another one.")
 								else:
-									if "plešoun" in message.content.lower():
-										await bot.send_message(message.channel, "shiro, we have another one.")
+									if "good night bot" in message.content.lower():
+										await bot.send_message(message.channel, "Good night!")
 									else:
-										if "good night bot" in message.content.lower():
-											await bot.send_message(message.channel, "Good night!")
+										if "bot help" in message.content.lower():
+											await bot.send_message(message.channel, "My son, there's nothing I can do.")
 										else:
-											if "bot help" in message.content.lower():
-												await bot.send_message(message.channel, "My son, there's nothing I can do.")
+											if "bot I summon thee" in message.content.lower():
+											await bot.send_message(message.channel, "What do you need?")
+											
 
 		
 @bot.command(pass_context = True)
